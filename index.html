@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Eficaz Marketing estágio</title>
+</head>
+<body>
+    <section class="section-1">
+        <div class="container"> 
+                <div class="painel">
+                    <img src="logo.png" />
+                    <button id="cadastro">Cadastro</button>
+                    <button id="lista-cadastrados">Lista de Cadastrados</button>
+                    
+                </div>
+
+                <div class="cadastro-usuario" style="display: none;">
+                    <h1 style="color: #3bb7f5;">CADASTRO</h1>
+                    <div class="form">
+                        <form>
+                            <div class="secao-1">
+                                <div class="input">
+                                    <div><label>E-mail pessoal do candidato</label></div>
+                                    <input required type="email" />
+                                </div>
+                                <div class="input">
+                                    <div><label>E-mail </label></div>
+                                    <input required type="email" />
+                                </div>
+                                <div class="input">
+                                    <div><label>Rua</label></div>
+                                    <input type="text" />
+                                </div>
+                                <div class="input">
+                                    <div><label>Complemento</label></div>
+                                    <input required type="text" />
+                                </div>
+                                <div class="input">
+                                    <div><label>CEP</label></div>
+                                    <input required type="text" />
+                                </div>
+                                
+                            </div> <!--secao 1-->
+                            
+                            <div class="secao-2">
+                                <div class="input">
+                                    <div><label>Nome Completo</label></div>
+                                    <input required type="text" />
+                                </div>
+                                <div class="input">
+                                    <div><label>Telefone (DDD) </label></div>
+                                    <input required type="text" />
+                                </div>
+                                <div class="input">
+                                    <div><label>N.º</label></div>
+                                    <input required type="text" />
+                                </div>
+                                <div class="input">
+                                    <div><label>Bairro</label></div>
+                                    <input required type="text" />
+                                </div>
+                                <div class="input">
+                                    <div class="sub-1"> <div><label>Cidade</label></div>
+                                    <input required type="text" /></div>
+                                   
+                                    <div class="sub-2"> <div><label>UF</label></div>
+                                    <input required type="text" />
+                                </div>
+                                </div>
+                            </div> <!--secao 2-->
+                            <div class="clear"></div>
+                            <div class="submit"><input type="submit" value="Cadastrar" /></div>
+                        </form> <!--form tag-->
+                    </div> <!--form classe -->
+                </div> <!--cadastro usuario-->
+                <div class="clear"></div>
+    
+        </div>
+    </section>
+
+    
+
+<section class="section-2">
+    <div class="container" >
+        <div class="lista-cadastrados" style="display: none;">
+                <div class="linha1">
+                    <h4>Lista de cadastrados</h4>
+                </div>
+                <div class="linha2">
+                    <h2>FILTROS</h2>
+                </div>
+                <div class="linha3">
+                            <strong>Nome</strong>  
+                            <strong>E-mail</strong>  
+                            <strong>Endereço Completo</strong>  
+                            <strong>Telefone</strong>  
+                            <strong>Acão</strong>              
+                </div>
+                <div class="informacoes">
+                            <p>Jõao Silva</p> 
+                            <p>joao@gmail.com</p> 
+                            <p>Rua Shimizu,90<br>
+                                centro<br>17515-140<br>
+                                Marilia-SP
+                                </p> 
+                            <p>(14)xxxx-xxxx</p> 
+                            <div class="botoes">
+                                <input type="button" class="alterar" value="Alterar"/>
+                                <input type="button" class="excluir" value="Excluir"/>
+        
+                            </div>
+                             
+
+                </div>
+                
+        </div> <!--lista cadastrados-->
+       
+    </div>
+   
+
+</section> <!--section 2 -->
+       
+
+    </section> <!--section 2-->
+    <script src="script.js">
+    </script>
+    
+</body>
+</html>
